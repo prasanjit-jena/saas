@@ -3,5 +3,7 @@
 {% block content %}
 <h1>{{title}}</h1>
 <p>Hello {{request.user}}</p>
+<p>Total Visits : {{total_visit_count}}</p>
+<p>Page Visits : {{page_visit_count}}</p>
 {% include "snippets/user_message.html" %}
 {% endblock content %}
